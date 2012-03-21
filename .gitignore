@@ -30,3 +30,5 @@ _ReSharper*/
 /packages
 src/packages
 !src/packages/repositories.config
+*.db
+*ncrunch*
