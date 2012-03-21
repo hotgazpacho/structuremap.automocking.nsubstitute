@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap.AutoMocking.NSubstitute", "StructureMap.AutoMocking.NSubstitute\StructureMap.AutoMocking.NSubstitute.csproj", "{EAEA6943-02E5-4ED4-B2BE-6E5690D5051C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap.AutoMocking.Tests", "StructureMap.AutoMocking.Tests\StructureMap.AutoMocking.Tests.csproj", "{EE4119AC-145E-43A5-8F42-6ED513502531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AABF4047-FDE5-4A01-BCDD-F6F5942FEA7A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +21,10 @@ Global
 		{EAEA6943-02E5-4ED4-B2BE-6E5690D5051C}.Debug|x86.Build.0 = Debug|x86
 		{EAEA6943-02E5-4ED4-B2BE-6E5690D5051C}.Release|x86.ActiveCfg = Release|x86
 		{EAEA6943-02E5-4ED4-B2BE-6E5690D5051C}.Release|x86.Build.0 = Release|x86
+		{EE4119AC-145E-43A5-8F42-6ED513502531}.Debug|x86.ActiveCfg = Debug|x86
+		{EE4119AC-145E-43A5-8F42-6ED513502531}.Debug|x86.Build.0 = Debug|x86
+		{EE4119AC-145E-43A5-8F42-6ED513502531}.Release|x86.ActiveCfg = Release|x86
+		{EE4119AC-145E-43A5-8F42-6ED513502531}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
